@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+}
+.app{
+  background-color: #fafafa;
+  height:100%;
+}
+
+.app_header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  padding:10px;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  justify-content: space-between;
+}
+.app_headerImage{
+  object-fit: contain;
+  
+}
+
+.signup_header{
+  display: flex;
+  flex-direction: column;
+}
+
+.app_signup{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.app_loadAuth{
+  display: flex;
+  margin: 4px;
+}
+

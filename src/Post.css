@@ -1,0 +1,60 @@
+.post{
+    margin-left: 25%;
+    background-color: white;
+    max-width: 500px;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.post_image{
+    width:100%;
+    height: 50%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.post_header{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;  
+}
+.post_avatar{
+    margin-right: 5px;
+}
+.post_caption{
+    padding: 20px;
+    font-weight: normal;
+}
+
+.post_CommentBox{
+    margin-top: 1px;
+    display: flex;
+}
+.post_input{
+    flex:1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.post_comment{
+    flex:0;
+    border: none;
+    border-top: 1px solid lightgray;
+    color: lightblue;
+}
+.app_comments{
+    padding:20px;
+}
+
+p{
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 600px){
+    .post{
+        padding:10px;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
